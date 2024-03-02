@@ -21,7 +21,7 @@ function bpmToDelta(bpm) {
 // all in ms
 function createClickArray(start, end, delta) {
     let out = [];
-    for (let i = start; i < end; i += delta) {
+    for (let i = start; i <= end; i += delta) {
         out.push(i);
     }
     return out;
@@ -52,7 +52,7 @@ ws.addEventListener('close', () => {
 });
 
 ws.addEventListener('error', (e) => {
-    console.log("Encountered an error: ", JSON.parse(e.data));
+    console.log("Encountered an error:", JSON.parse(e.data));
 });
 
 ws.addEventListener('message', (m) => {

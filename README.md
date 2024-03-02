@@ -15,3 +15,5 @@ expected bpm: 182
 BPM: 182 UT: undefined
 Game end message: Nice job! osu{are_y0u_a_r0b0t?}
 ```
+Sometimes fails due to rounding issues.
+
