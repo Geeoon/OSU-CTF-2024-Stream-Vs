@@ -1,4 +1,4 @@
-# OSU CTF 2024 Stream Vu Bot
+# OSU CTF 2024 Stream Vs Bot
 Output:
 ```
 WebSocket connection established.
